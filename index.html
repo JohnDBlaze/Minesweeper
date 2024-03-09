@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Minesweeper</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.png">
+    <script src="assets/js/index.js" defer></script>
+  </head>
+  <body>
+    <section class="minesweeper">
+      <h1>Minesweeper</h1>
+
+      <div>
+        <button type="button" data-level="beginner" aria-pressed="true" class="btn active" id="beginner">Beginner</button>
+        <button type="button" data-level="intermediate" aria-pressed="false" class="btn" id="intermediate">Intermediate</button>
+        <button type="button" data-level="advanced" aria-pressed="false" class="btn" id="advanced">Advanced</button>
+        <button type="button" class="btn" id="new-game">New game</button>
+      </div>
+
+      <p class="info">🚩 <span id="remaining-flags">10</span></p>
+
+      <table role="grid" id="board"></table>
+    </section>
+    <footer>
+      coded with
+      <span class="love">&#9829;</span> by
+      <a
+        href=""
+        target="_blank"
+        alt="Abhilash Francis on Twitter"
+        title="Abhilash Francis on Twitter">Abhilash Francis
+      </a>
+    </footer>
+  </body>
+</html>

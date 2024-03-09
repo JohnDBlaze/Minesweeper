@@ -1,0 +1,139 @@
+body {
+  background-color: #55ddff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #263be8;
+  margin-bottom: 0;
+}
+
+.minesweeper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #0000ff;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: normal;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.active {
+  background-color: red;
+}
+
+.info {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+td {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid #a1a1a1;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mine {
+  background: #eeeeee url(../img/mine.png) no-repeat center;
+  background-size: cover;
+}
+
+.flag {
+  background: #eeeeee url(../img/flag.png) no-repeat center;
+  background-size: cover;
+}
+
+.cell-0 {
+  background-color: #eeeeee;
+}
+
+.cell-1 {
+  background-color: #eeeeee;
+  color: #0332fe;
+}
+
+.cell-2 {
+  background-color: #eeeeee;
+  color: #019f02;
+}
+
+.cell-3 {
+  background-color: #eeeeee;
+  color: #ff2600;
+}
+
+.cell-4 {
+  background-color: #eeeeee;
+  color: #93208f;
+}
+
+.cell-5 {
+  background-color: #eeeeee;
+  color: #ff7f29;
+}
+
+.cell-6 {
+  background-color: #eeeeee;
+  color: #ff3fff;
+}
+
+.cell-7 {
+  background-color: #eeeeee;
+  color: #53b8b4;
+}
+
+.cell-8 {
+  background-color: #eeeeee;
+  color: #22ee0f;
+}
+
+footer {
+  position          : fixed;
+  bottom            : 0;
+  background        : #000;
+  color             : #eee;
+  height            : 1.4rem;
+  width             : 100%;
+  padding           : .2rem;
+  text-align        : center;
+  font-size         : .8rem;
+  z-index           : 999;
+}
+
+  footer a:link, footer a:visited {
+    text-decoration : none;
+    color           : #eee;
+    transition      : color 0.5s ease;
+  }
+
+  footer a:hover {
+    color           : #fc0;
+  }
+
+  footer .love {
+    color           : #b10;
+    font-size       : 1rem;
+    vertical-align  : baseline;
+  }
